@@ -1,3 +1,5 @@
+@import url('../css/font.css');
+
 html, body{
     margin: 0;
     box-sizing: border-box;
@@ -6,6 +8,40 @@ html, body{
 /*-----------Classes globais-------------*/
 a{
     text-decoration: none;
+
+}
+
+:root{
+  /*  Theme de Cor*/
+
+
+  --text-gray: #3f4954;
+  --text-light: #686666da;
+  --bg-color:#0f0f0f; 
+  --white: #ffffff; 
+  --midnight: #104f55;
+
+ /* gradiente color*/
+  --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+
+
+  /*  theme font-family:*/
+  --Abel: 'Abel', cursive;  
+  --Anton: 'Anton',cursive; 
+  --Josefin: 'Josefin', cursive;
+  --Lexend: 'Lexend',cursive;
+  --Livvic:'Livvic',cursive; 
+}
+
+.flex-row{
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap; /*Organiza os conteines quando a tela diminui*/
+}
+
+ul{
+  list-style-type: none; 
 }
 /*----- Classes globais--------*/
 
@@ -14,12 +50,65 @@ a{
   background: white;
   padding: 0 2rem;
   height: 0rem; 
-  min-height: 40vh; 
+  min-height: 100vh; 
 }
+
+.nav .nav-menu{
+  justify-content: space-between;
+
+}
+
+.nav .nav-items{
+ display: flex;
+ margin: 0;
+}
+
+.nav .nav-items .nav-link{
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  font-family: var(--Abel);
+  font-size: 1.1rem;
+
+}
+
+.nav .nav-items .nav-link:hover{
+  background-color: var(--midnight) ;
+}
+
+.nav .nav-items .nav-link:hover a{
+  color: var(--white);
+}
+
 
 .nav .nav-brand a{
   font-size: 1.6rem;
   padding: 1rem;  
   text-decoration:none ;
+  display: block;
+  font-family: var(--Lexend);
+  font-size:1.6rem ;
+}
+
+.nav .social{
+  padding: 1.4rem 0;
+}
+
+.nav .social i{
+  padding: 0.2rem;
+}
+
+.nav .social i:hover{
+  color: #a1c4cf;
 }
 /*----navegação-------------------------*/
+
+
+/*   Wiewport less then or equal to 750px  */
+@media only screen and (max-width: 750px){
+ .nav .nav-menu, .nav ,.nav-items{
+  flex-direction:column;
+ }
+}
+
+/*   Wiewport less then or equal to 750px  */
