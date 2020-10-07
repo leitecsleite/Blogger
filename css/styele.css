@@ -196,6 +196,21 @@ main .site-title .site-background{
  }
 /*--------final site title----*/
 
+
+/*------- Blog Carousel-------*/
+main.blog{
+  background: url(../assets/Abract01.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+}
+
+
+/*-------Final Carousel------*/
+
+
+
 /*-------- Final do Main Content -------*/
 
 
