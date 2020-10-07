@@ -3,7 +3,7 @@
 html, body{
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 /*-----------Classes globais-------------*/
 a{
@@ -198,13 +198,8 @@ main .site-title .site-background{
 
 
 /*------- Blog Carousel-------*/
-main.blog{
-  background: url(../assets/Abract01.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 100vh;
-  width: 100%;
-  background-size: 65%;
+main .blog {
+  background: url('../assets/Abract01.png');
 }
 
 
