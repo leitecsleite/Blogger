@@ -173,7 +173,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/Background-image.png');
+    background: url('../assets/Background-image-3.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -212,6 +212,7 @@ main .blog{
     height: 100vh;
     width: 100%;
     background-size: 65%;
+    margin-top: 10%;
 }
 
 main .blog .blog-post{
@@ -235,6 +236,10 @@ main .blog-content .btn-blog{
     padding: .7rem 2rem;
     background: var(--sky);
     margin: .5rem;
+}
+
+Main .blog-content .btn-blog:hover{
+    color: var(--white);
 }
 
 main .blog-content span{
