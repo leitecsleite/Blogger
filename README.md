@@ -22,6 +22,6 @@
 	<hr>
 	<h1 align="center">
   <img alt="Blogger" title="Blogger" src="footer.png" />
-  <p align ="center"> parte do corpo do Blogger</p>
+  <p align ="center"> Footer do Blogger <p>
 </h1>
 	
